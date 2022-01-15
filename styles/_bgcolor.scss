@@ -1,0 +1,76 @@
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-dark {
+  --mh-bg-opacity: 1;
+  background-color: rgba(var(--mh-dark-rgb), var(--mh-bg-opacity)) !important;
+}
+
+.rounded-3 {
+  border-radius: 0.8125rem !important;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.top-3 {
+  top: 3px;
+}
+
+.border-top {
+  border-top: 1px solid #eee;
+}
+
+.text-cap {
+  display: block;
+  color: #2d374b;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03125rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-py-2 > li:not(:first-child) {
+  padding-top: 0.25rem;
+}
+
+.list-py-2 > li:not(:last-child) {
+  padding-bottom: 0.25rem;
+}
+
+.border {
+  border: 0.0625rem solid rgba(220, 224, 229, 0.6) !important;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.top-10 {
+  top: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1dbf73 !important;
+}

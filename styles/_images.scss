@@ -1,0 +1,28 @@
+
+.img-fluid {
+	max-width: 100%;
+	height: auto
+}
+
+.img-thumbnail {
+	padding: .25rem;
+	background-color: #fff;
+	border: .0625rem solid #dce0e5;
+	border-radius: .5rem;
+	max-width: 100%;
+	height: auto
+}
+
+.figure {
+	display: inline-block
+}
+
+.figure-img {
+	margin-bottom: .5rem;
+	line-height: 1
+}
+
+.figure-caption {
+	font-size: .875em;
+	color: #8c98a4
+}
