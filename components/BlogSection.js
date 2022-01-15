@@ -7,7 +7,7 @@ const BlogSection = () => {
       <div className='container'>
         <div className='row mb-5 align-items-center'>
           <div className='col-lg-8'>
-            <div>
+            <div className='mb-5'>
               <h2 className='display-5'>Latest Blog</h2>
               <p className='lead mb-0'>
                 A freelance WordPress developer blog about freelancing,
@@ -35,7 +35,7 @@ const BlogSection = () => {
                 </Link>
               </h5>
               <h6 className='fs-14 py-3 mb-0 color-gray-dark-v4 text-black-50'>
-                Last Update 27 Dec 21
+                Last Update 10 Jan 22
               </h6>
               <p>
                 {`Are you looking for a professional WordPress developer to create a brand new WordPress Website design or redesign your old website? If yes, You are in the right place!....`}

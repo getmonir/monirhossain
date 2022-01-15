@@ -15,7 +15,7 @@ const CustomWordPress = () => {
                 redesign do responsive wordpress website design or website
                 redesign
               </h2>
-              <p className='mb-0 py-4 text-center'>Last Update 27 Dec 2021</p>
+              <p className='mb-0 py-4 text-center'>Last Update 10 Jan 2022</p>
               <div className='mb-5'>
                 <Image
                   src='/blog/responsive-wordpress-website-design-or-website-redesign.jpg'

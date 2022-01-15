@@ -1,5 +1,10 @@
 import Meta from '../../components/Meta';
-import { RiMailSendLine, RiSkypeLine, RiWhatsappLine } from 'react-icons/ri';
+import {
+  RiMailSendLine,
+  RiMessengerFill,
+  RiSkypeLine,
+  RiWhatsappLine,
+} from 'react-icons/ri';
 const index = () => {
   return (
     <>
@@ -21,30 +26,75 @@ const index = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4'>
-              <div className='border p-4 rounded-3'>
+              <div className='border p-4 rounded-3 mb-4'>
                 <span className='fs-1'>
                   <RiMailSendLine />
                 </span>
                 <h4>Email</h4>
-                <p className='mb-0'>getmonirhossain@gmail.com</p>
+                <p className='mb-0 lead'>
+                  <a
+                    className='text-decoration-none text-link link-primary'
+                    href='mailto:getmonirhossain@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    getmonirhossain@gmail.com
+                  </a>
+                </p>
               </div>
             </div>
             <div className='col-lg-4'>
-              <div className='border p-4 rounded-3'>
+              <div className='border p-4 rounded-3 mb-4'>
                 <span className='fs-1'>
                   <RiWhatsappLine />
                 </span>
                 <h4>Whatsapp</h4>
-                <p className='mb-0'>+88 01521 56 90 94</p>
+                <p className='mb-0 lead'>
+                  <a
+                    className='text-decoration-none text-link link-primary'
+                    href='https://wa.me/01521569094'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    +88 01521 56 90 94
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='border p-4 rounded-3 mb-4'>
+                <span className='fs-1'>
+                  <RiSkypeLine />
+                </span>
+                <h4>Skype</h4>
+                <p className='mb-0 lead'>
+                  <a
+                    className='text-decoration-none text-link link-primary'
+                    href='https://join.skype.com/invite/vldEXJepMI0M'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    getmonirhossain
+                  </a>
+                </p>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='border p-4 rounded-3'>
                 <span className='fs-1'>
-                  <RiSkypeLine />
+                  <RiMessengerFill />
                 </span>
-                <h4>Skype</h4>
-                <p className='mb-0'>live:cc586986d6ed5bfc</p>
+                <h4>Messanger</h4>
+                <p className='mb-0 lead'>
+                  <a
+                    className='text-decoration-none text-link link-primary'
+                    href='http://m.me/getmonir'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    getmonir
+                  </a>
+                </p>
               </div>
             </div>
           </div>

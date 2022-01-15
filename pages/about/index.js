@@ -19,18 +19,20 @@ const AboutPage = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 mx-auto'>
-              <Image
-                src='/about-img.jpg'
-                width='800'
-                height='420'
-                placeholder='blur'
-                blurDataURL={`data:image/svg+xml;base64,${ToBase64(
-                  Shimmer(800, 420)
-                )}`}
-                alt='Felt Moon'
-                layout='responsive'
-                className='rounded-3 mb-5'
-              />
+              <div className='pt-2 pb-5'>
+                <Image
+                  src='/about-img.jpg'
+                  width='800'
+                  height='420'
+                  placeholder='blur'
+                  blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                    Shimmer(800, 420)
+                  )}`}
+                  alt='Felt Moon'
+                  layout='responsive'
+                  className='border rounded-3'
+                />
+              </div>
               <p>
                 I&apos;m Monir, a freelance WordPress developer from Bangladesh.
                 I&apos;ve been a WordPress developer for 5 years. I live and

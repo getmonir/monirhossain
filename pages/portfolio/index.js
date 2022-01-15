@@ -24,7 +24,7 @@ const PortfolioPage = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4'>
-              <div className='mb-5 mb-lg-0'>
+              <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary d-block'
                   href='https://sporsha.org/'
@@ -52,7 +52,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <div className='mb-5 mb-lg-0'>
+              <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
                   href='https://fixiz.co.uk/'
@@ -80,7 +80,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <div>
+              <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
                   href='https://belleviewdental.com.au/'
@@ -103,6 +103,62 @@ const PortfolioPage = () => {
                   <div>
                     <h4 className='mb-0 text-inherit'>Belleview Dental</h4>
                     <span>Dental clinic website</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://controlpost.org/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/control-post.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='control post'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Control Post</h4>
+                    <span>Digital marketing agency</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='http://no1-it.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/no1-it.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='No1 Intertrading'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>No1 Intertrading</h4>
+                    <span>Intertrading limited company</span>
                   </div>
                 </a>
               </div>
