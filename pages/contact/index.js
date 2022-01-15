@@ -52,7 +52,7 @@ const index = () => {
                 <p className='mb-0 lead'>
                   <a
                     className='text-decoration-none text-link link-primary'
-                    href='https://wa.me/01521569094'
+                    href='https://wa.me/+8801521569094'
                     target='_blank'
                     rel='noreferrer'
                   >

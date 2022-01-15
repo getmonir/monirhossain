@@ -8,7 +8,7 @@ const PortfolioPage = () => {
       <Meta title='Portfolio - Monir Hossain' />
       <header className='pt-10'>
         <div className='container'>
-          <div className='row'>
+          <div className='row g-3'>
             <div className='col-lg-8 text-center mx-auto'>
               <h2 className='display-5 mb-4'>My Portfolio</h2>
               <p className='mb-0 lead'>
@@ -22,7 +22,7 @@ const PortfolioPage = () => {
       </header>
       <section className='py-10 py-lg-11'>
         <div className='container'>
-          <div className='row'>
+          <div className='row g-5'>
             <div className='col-lg-4'>
               <div className='mb-5'>
                 <a
@@ -108,7 +108,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <div>
+              <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
                   href='https://controlpost.org/'
@@ -136,7 +136,7 @@ const PortfolioPage = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <div>
+              <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
                   href='http://no1-it.com/'
@@ -159,6 +159,62 @@ const PortfolioPage = () => {
                   <div>
                     <h4 className='mb-0 text-inherit'>No1 Intertrading</h4>
                     <span>Intertrading limited company</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='http://www.earthbounduk.co.uk/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/earthbounduk.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='No1 Intertrading'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Earth Bound</h4>
+                    <span>The company manufactures pet bedding</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://www.felt-moon.co.uk/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/feltmoon.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='No1 Intertrading'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Felt Moon</h4>
+                    <span>Discover world of needle felt art Shop</span>
                   </div>
                 </a>
               </div>
