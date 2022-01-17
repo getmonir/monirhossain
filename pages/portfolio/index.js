@@ -325,7 +325,7 @@ const PortfolioPage = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='mb-0 text-inherit'>TU'S Dental</h4>
+                    <h4 className='mb-0 text-inherit'>{`TU'S Dental`}</h4>
                     <span>Dental clininc websit desgin</span>
                   </div>
                 </a>
