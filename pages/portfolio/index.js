@@ -27,6 +27,34 @@ const PortfolioPage = () => {
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary d-block'
+                  href='https://www.twelvebeauty.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/twelvebeauty.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='twelve beauty'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Twelve Beauty</h4>
+                    <span>Online shop with WooCommerce</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary d-block'
                   href='https://sporsha.org/'
                   target='_blank'
                   rel='noreferrer'
@@ -47,6 +75,34 @@ const PortfolioPage = () => {
                   <div>
                     <h4 className='mb-0 text-inherit'>Sporsha</h4>
                     <span>Charity organization website</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary d-block'
+                  href='https://fixandgony.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/fixandgony.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='fixandgony'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Fix and Go</h4>
+                    <span>Phone repairs website</span>
                   </div>
                 </a>
               </div>
@@ -75,6 +131,62 @@ const PortfolioPage = () => {
                   <div>
                     <h4 className='mb-0 text-inherit'>Fixiz</h4>
                     <span>House cleaning service webstie</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://www.fhittingroom.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/fhittingroom.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='fhittingroom'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Fhitting Room</h4>
+                    <span>WordPress modern gym webstie</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://midtowndentalgroup.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/midtowndentalgroup.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='mid town dental'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Mid Town Dental</h4>
+                    <span>Dental clinic website</span>
                   </div>
                 </a>
               </div>
@@ -139,6 +251,34 @@ const PortfolioPage = () => {
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
+                  href='https://ilovekickboxing.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/ilovekickboxing.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='ilovekickboxing'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>ilovekickboxing</h4>
+                    <span>Boxing training WordPess webiste</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
                   href='http://no1-it.com/'
                   target='_blank'
                   rel='noreferrer'
@@ -167,6 +307,34 @@ const PortfolioPage = () => {
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
+                  href='http://tusdental.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/tusdental.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='tusdental'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>TU'S Dental</h4>
+                    <span>Dental clininc websit desgin</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
                   href='http://www.earthbounduk.co.uk/'
                   target='_blank'
                   rel='noreferrer'
@@ -187,6 +355,34 @@ const PortfolioPage = () => {
                   <div>
                     <h4 className='mb-0 text-inherit'>Earth Bound</h4>
                     <span>The company manufactures pet bedding</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='http://www.nycsmilespa.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/nycsmilespa.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='nycsmilespa'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Smile Spa</h4>
+                    <span>WordPress reponsive spa website</span>
                   </div>
                 </a>
               </div>

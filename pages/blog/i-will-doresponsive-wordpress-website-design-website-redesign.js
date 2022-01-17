@@ -1,18 +1,17 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import Image from 'next/image';
 import { Shimmer, ToBase64, Meta } from '../../components';
 
 const CustomWordPress = () => {
   return (
     <>
-      <Meta title='Why Custom WordPress Themes are Better for Your Business - by Monir Hossain' />
+      <Meta title='I will do responsive wordpress website design or website redesign' />
       <section className='py-10'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 mx-auto'>
               <h2 className='h1 mb-3 text-center'>
                 I will do responsive wordpress website design or website
-                redesign do responsive wordpress website design or website
                 redesign
               </h2>
               <p className='mb-0 py-4 text-center'>Last Update 10 Jan 2022</p>
