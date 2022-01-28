@@ -15,7 +15,7 @@ const GetStarted = () => {
               className='btn btn-primary'
               target='_blank'
               rel='noreferrer'
-              href='https://fiverr.com/getmonir'
+              href='https://fiverr.com/inbox/getmonir'
             >
               Start a Project
             </a>

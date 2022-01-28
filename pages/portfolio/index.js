@@ -22,8 +22,92 @@ const PortfolioPage = () => {
       </header>
       <section className='py-10 py-lg-11'>
         <div className='container'>
-          <div className='row g-5'>
-            <div className='col-lg-4'>
+          <div className='row g-lg-5'>
+            <div className='col-lg-6'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary d-block'
+                  href='https://nuriabeauty.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/nuriabeauty.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='twelve beauty'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Nuria Beauty</h4>
+                    <span>Online beauty shop website</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary d-block'
+                  href='https://joecoffeecompany.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/joecoffeecompany.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='twelve beauty'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Joe Coffe</h4>
+                    <span>Coffee company eCommerce website</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary d-block'
+                  href='https://www.flwr.co.nz/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/flwr.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='twelve beauty'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Flwr</h4>
+                    <span>Flower shop with WooCommerce</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary d-block'
@@ -51,7 +135,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary d-block'
@@ -79,7 +163,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary d-block'
@@ -107,7 +191,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -135,7 +219,35 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://www.nordicappeal.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/nordicappeal.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='nordicappeal'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Nordic Appeal</h4>
+                    <span>Apple accessories online shop</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -163,7 +275,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -191,7 +303,35 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
+                  href='https://cbeaux.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/cbeaux.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='Belleview Dental'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>Cbeaux</h4>
+                    <span>Cbeaux online store</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -219,7 +359,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -247,7 +387,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -275,7 +415,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -303,7 +443,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -331,7 +471,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -359,7 +499,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -387,7 +527,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
@@ -415,7 +555,7 @@ const PortfolioPage = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
