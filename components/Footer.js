@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className='row py-6'>
             <div className='col-6 col-sm-4 col-lg mb-5 mb-lg-0'>
-              <span className='text-cap text-white'>userful Links</span>
+              <span className='text-cap text-white'>useful Links</span>
               <ul className='list-unstyled list-py-2 mb-0'>
                 <li>
                   <Link href='/about'>

@@ -251,6 +251,34 @@ const PortfolioPage = () => {
               <div className='mb-5'>
                 <a
                   className='text-decoration-none text-black link-primary'
+                  href='https://britishknights.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='mb-3'>
+                    <Image
+                      src='/portfolio/britishknights.jpg'
+                      width='1280'
+                      height='769'
+                      placeholder='blur'
+                      blurDataURL={`data:image/svg+xml;base64,${ToBase64(
+                        Shimmer(1280, 769)
+                      )}`}
+                      alt='britishknights'
+                      layout='responsive'
+                    />
+                  </div>
+                  <div>
+                    <h4 className='mb-0 text-inherit'>British Knights</h4>
+                    <span>Fashion eCommerce website</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mb-5'>
+                <a
+                  className='text-decoration-none text-black link-primary'
                   href='https://ilovekickboxing.com/'
                   target='_blank'
                   rel='noreferrer'
@@ -269,7 +297,7 @@ const PortfolioPage = () => {
                     />
                   </div>
                   <div>
-                    <h4 className='mb-0 text-inherit'>ilovekickboxing</h4>
+                    <h4 className='mb-0 text-inherit'>I Love Kick Boxing</h4>
                     <span>Boxing training WordPess webiste</span>
                   </div>
                 </a>
