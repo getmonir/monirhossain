@@ -6,7 +6,7 @@ const BlogSection = () => {
     <section className='py-10 py-lg-11'>
       <div className='container'>
         <div className='row mb-5 align-items-center'>
-          <div className='col-lg-8'>
+          <div className='col-lg-8 mb-5 mb-lg-0'>
             <div className='mb-5'>
               <h2 className='display-5'>Latest Blog</h2>
               <p className='lead mb-0'>
