@@ -11,6 +11,22 @@ const Meta = ({ title, keywords, description }) => {
       <meta name='author' content='Monir Hossain' />
       <meta name='description' content={description} />
       <title>{title}</title>
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-781TZL953Q`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-781TZL953Q', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
     </Head>
   );
 };
