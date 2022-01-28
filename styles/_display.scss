@@ -2,6 +2,10 @@
   display: block;
 }
 
+.d-grid {
+  display: grid;
+}
+
 @media (min-width: 991px) {
   .d-lg-none {
     display: none !important;
@@ -19,4 +23,12 @@
 }
 .d-none {
   display: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
 }

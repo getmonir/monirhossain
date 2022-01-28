@@ -13,6 +13,7 @@ import WhyMe from './WhyMe';
 import MyServices from './MyServices';
 import MyPortfolio from './MyPortfolio';
 import MyFreeWebsite from './MyFreeWebsite';
+import GigResponsiveWP from './GigResponsiveWP';
 
 export {
   Header,
@@ -30,4 +31,5 @@ export {
   MyServices,
   MyPortfolio,
   MyFreeWebsite,
+  GigResponsiveWP,
 };

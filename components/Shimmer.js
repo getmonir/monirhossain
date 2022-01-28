@@ -4,11 +4,11 @@ const Shimmer = (w, h) => {
   <defs>
     <linearGradient id="g">
       <stop stop-color="#f8f8f8" offset="20%" />
-      <stop stop-color="#ccc" offset="50%" />
+      <stop stop-color="#f1f1f1" offset="50%" />
       <stop stop-color="#f8f8f8" offset="70%" />
     </linearGradient>
   </defs>
-  <rect width="${w}" height="${h}" fill="#ccc" />
+  <rect width="${w}" height="${h}" fill="#f1f1f1" />
   // <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
   <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
 </svg>`;

@@ -24,7 +24,7 @@ const BlogPage = () => {
             <div className='col-lg-4'>
               <div>
                 <h5 className='mb-0'>
-                  <Link href='/blog/i-will-doresponsive-wordpress-website-design-website-redesign'>
+                  <Link href='/blog/i-will-build-responsive-wordpress-website-design-website-redesign'>
                     <a className='link-primary text-decoration-none text-black'>
                       I will do responsive wordpress website design or website
                       redesign
@@ -32,12 +32,12 @@ const BlogPage = () => {
                   </Link>
                 </h5>
                 <h6 className='fs-14 py-3 mb-0 color-gray-dark-v4 text-black-50'>
-                  Last Update 10 Jan 22
+                  Last Update 28 Jan 22
                 </h6>
                 <p>
                   {`Are you looking for a professional WordPress developer to create a brand new WordPress Website design or redesign your old website? If yes, You are in the right place!....`}
                 </p>
-                <Link href='/blog/i-will-doresponsive-wordpress-website-design-website-redesign'>
+                <Link href='/blog/i-will-build-responsive-wordpress-website-design-website-redesign'>
                   <a className='link-primary text-black text-decoration-none'>
                     Read More
                     <span className='top-3 position-relative'>

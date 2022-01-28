@@ -74,3 +74,29 @@
 .swiper-button-prev {
   color: #1dbf73 !important;
 }
+.sticky {
+  top: 20px;
+  position: sticky;
+}
+
+.seller-info a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem !important;
+  font-weight: 600;
+  &:hover {
+    color: #1dbf73 !important;
+  }
+}
+
+.gig-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  color: #616161;
+  text-decoration: none;
+  &:hover {
+    color: #1dbf73 !important;
+  }
+}

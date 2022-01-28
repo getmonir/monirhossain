@@ -1,23 +1,22 @@
-// import Link from 'next/link';
 import Image from 'next/image';
-import { Shimmer, ToBase64, Meta } from '../../components';
+import { Shimmer, ToBase64, Meta, GigResponsiveWP } from '../../components';
 
 const CustomWordPress = () => {
   return (
     <>
-      <Meta title='I will do responsive wordpress website design or website redesign' />
+      <Meta title='I will build responsive wordpress website design or website redesign' />
       <section className='py-10'>
         <div className='container'>
-          <div className='row'>
-            <div className='col-lg-8 mx-auto'>
-              <h2 className='h1 mb-3 text-center'>
-                I will do responsive wordpress website design or website
+          <div className='row justify-content-between'>
+            <div className='col-lg-7'>
+              <h2 className='h1 mb-3'>
+                I will build responsive wordpress website design or website
                 redesign
               </h2>
-              <p className='mb-0 py-4 text-center'>Last Update 10 Jan 2022</p>
+              <p className='mb-0 py-4 h6'>Last Update 28 Jan 2022</p>
               <div className='mb-5'>
                 <Image
-                  src='/blog/responsive-wordpress-website-design-or-website-redesign.jpg'
+                  src='/gig/responsive-wordpress-website.png'
                   width='1280'
                   height='769'
                   placeholder='blur'
@@ -59,6 +58,9 @@ const CustomWordPress = () => {
                 <p className='mb-0'>{`✅ Lifetime support free support`}</p>
                 <p className='mb-0'>{`✅ Trusted freelance WordPress developer`}</p>
               </div>
+            </div>
+            <div className='col-lg-4'>
+              <GigResponsiveWP />
             </div>
           </div>
         </div>
