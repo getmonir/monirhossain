@@ -4,7 +4,13 @@ import { Shimmer, ToBase64, Meta, GigResponsiveWP } from '../../components';
 const CustomWordPress = () => {
   return (
     <>
-      <Meta title='I will build responsive wordpress website design or website redesign' />
+      <Meta
+        title='I will build responsive wordpress website design or website redesign'
+        keywords={
+          'WordPress, Responsive Website, wordpress developer, website design, website redesign, responsive wordpress, wordpress developer'
+        }
+        description='I will build responsive wordpress website design or website redesign for $10'
+      />
       <section className='py-10'>
         <div className='container'>
           <div className='row justify-content-between'>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {
+  RiBehanceLine,
   RiFacebookCircleFill,
   RiGithubFill,
   RiInstagramLine,
@@ -114,7 +115,22 @@ const Footer = () => {
                 <li>
                   <a
                     className='link-primary text-black text-decoration-none'
-                    href='https://facebook.com/twitter'
+                    href='https://www.behance.net/getmonir'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='d-flex align-itmes-center'>
+                      <span className='position-relative top-3'>
+                        <RiBehanceLine />
+                      </span>
+                      <span className='ms-2'>Behance</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='link-primary text-black text-decoration-none'
+                    href='https://facebook.com/getmonir'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -144,7 +160,7 @@ const Footer = () => {
                 <li>
                   <a
                     className='link-primary text-black text-decoration-none'
-                    href='https://getmonir.com/getmonir'
+                    href='https://instagram.com/getmonir'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -159,7 +175,7 @@ const Footer = () => {
                 <li>
                   <a
                     className='link-primary text-black text-decoration-none'
-                    href='https://twitter.com/in/getmonirh'
+                    href='https://linkedin.com/in/getmonirh'
                     target='_blank'
                     rel='noreferrer'
                   >
