@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { Shimmer, ToBase64, Meta } from '../components';
-const PortfolioItems = ({ maxpro }) => {
+const PortfolioItems = ({ portfolioData }) => {
   return (
     <div className='container'>
       <div className='row g-lg-5 g-3'>
-        {maxpro.map((portfolioItem) => {
+        {portfolioData.map((portfolioItem) => {
           const { id, title, subtitle, img, url, compatible } = portfolioItem;
 
           return (
