@@ -238,6 +238,10 @@ p {
   color: #1dbf73 !important;
 }
 
+.text-gray {
+  color: #616161 !important;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -3978,5 +3982,103 @@ p {
 
 .gig-title:hover {
   color: #1dbf73 !important;
+}
+
+button.cat-btn {
+  border: none;
+  font-family: inherit;
+  text-transform: capitalize;
+  background: transparent;
+  padding: 3px 15px;
+  border: 2px solid #eee;
+  margin: 5px 5px;
+  -webkit-transition: ease all 0.3s;
+  transition: ease all 0.3s;
+}
+
+button.cat-btn:hover {
+  color: #1dbf73 !important;
+  border-color: #1dbf73;
+  cursor: pointer;
+}
+
+.project-lang {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-lang li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 50px;
+  color: #616161;
+  display: inline-block;
+  padding: 0px 0;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 15px 0 0;
+}
+
+.lang-dot {
+  width: 10px;
+  height: 9px;
+  display: inherit;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+.lang-dot.html {
+  background-color: #e34c26 !important;
+}
+
+.lang-dot.css {
+  background-color: #563d7c !important;
+}
+
+.lang-dot.sass {
+  background-color: #a53b70 !important;
+}
+
+.lang-dot.js {
+  background-color: #f1e05a !important;
+}
+
+.lang-dot.php {
+  background-color: #4f5d95 !important;
+}
+
+.lang-dot.ep {
+  background-color: #f51722 !important;
+}
+
+.lang-dot.ts {
+  background-color: #2b7489 !important;
+}
+
+.lang-dot.wp {
+  background-color: #207196 !important;
+}
+
+.lang-dot.react {
+  background-color: #61dafb !important;
+}
+
+.lang-dot.mdb {
+  background-color: #46a147 !important;
+}
+
+.lang-dot.bt {
+  background-color: #8513fb !important;
+}
+
+.lang-dot.el {
+  background-color: #92003b !important;
+}
+
+.lang-dot.wc {
+  background-color: #7f54b3 !important;
 }
 /*# sourceMappingURL=style.css.map */
