@@ -171,7 +171,7 @@ const portfolio = [
     category: 'Portfolio',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609195/monirhossain/portfolio/control-post_dcbpgi.jpg',
     subtitle: 'Creative video creator portfolio website',
-    key: 'portfolio video agency portfolio website wordpress woocommerce control post',
+    key: 'portfolio video agency portfolio website wordpress woocommerce control post html bootstrap css',
     url: 'https://controlpost.org/',
     compatible: [
       "<span class='lang-dot html'></span>HTML",
@@ -213,7 +213,7 @@ const portfolio = [
     category: 'Agency',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/no1-it_gqp7dw.jpg',
     subtitle: 'Trading Business website',
-    key: 'One two',
+    key: 'Bootstrap HTML css php business no1 Intertrading ',
     url: 'http://no1-it.com/',
     compatible: [
       "<span class='lang-dot html'></span>HTML",
