@@ -5,6 +5,7 @@ const portfolio = [
     category: 'Beauty Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609196/monirhossain/portfolio/nuriabeauty_zy85xu.jpg',
     subtitle: `Online beauty shop website`,
+    key: 'beauty online shop ecommerce wordpress elementor woocommerce nuria beauty',
     url: 'https://nuriabeauty.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -18,6 +19,7 @@ const portfolio = [
     category: 'Online Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/joecoffeecompany_py8mzv.jpg',
     subtitle: 'Coffee company eCommerce website',
+    key: 'coffee online shop ecommerce wordpress elementor woocommerce joe coffee company',
     url: 'https://joecoffeecompany.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -31,6 +33,7 @@ const portfolio = [
     category: 'Flower Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609196/monirhossain/portfolio/flwr_bost6f.jpg',
     subtitle: 'Flower shop with WooCommerce',
+    key: 'flower online shop ecommerce wordpress elementor woocommerce flwr',
     url: 'https://www.flwr.co.nz/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -43,7 +46,8 @@ const portfolio = [
     title: 'Twelve Beauty',
     category: 'Beauty Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609196/monirhossain/portfolio/twelvebeauty_qzoxyp.jpg',
-    subtitle: 'Fixiz WooCommerce',
+    key: 'beauty online shop ecommerce wordpress elementor woocommerce cosmetics shop twelve beauty',
+    subtitle: 'Online cosmetics shop',
     url: 'https://www.twelvebeauty.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -57,6 +61,7 @@ const portfolio = [
     category: 'Charity / Non-profit',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/sporsha_wf2gp0.jpg',
     subtitle: '',
+    key: 'sporsha charity no-profit elementor astra woocommerce wordpress',
     url: 'https://sporsha.org/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -69,6 +74,7 @@ const portfolio = [
     category: 'Online Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/fixandgony_nv4moc.jpg',
     subtitle: '',
+    key: 'mobile repair fix wordpress elementor go fix and go ny woocommerce ecommerce',
     url: 'https://fixandgony.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -82,6 +88,7 @@ const portfolio = [
     category: 'Cleaning',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/fixiz_fly5st.jpg',
     subtitle: '',
+    key: 'cleaning services fix home services wordpress elementor serviceos fixiz cleaning',
     url: 'https://fixiz.co.uk/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -93,7 +100,8 @@ const portfolio = [
     title: 'Nordic Appeal',
     category: 'WooCommerce',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/nordicappeal_uyac3o.jpg',
-    subtitle: '',
+    subtitle: 'Apple accessories online shop',
+    key: 'nordic appeal apple imac mackbook wordpress woocommerce elementor ',
     url: 'https://www.nordicappeal.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -106,7 +114,8 @@ const portfolio = [
     title: 'Fhitting Room',
     category: 'Health / Fitness',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/fhittingroom_ub7n9b.jpg',
-    subtitle: '',
+    subtitle: 'Gym website with wordpress',
+    key: 'gym fit health fintness fhitting room wordpress elementor',
     url: 'https://www.fhittingroom.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -119,7 +128,8 @@ const portfolio = [
     title: 'Mid Town Dental',
     category: 'Dental',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/midtowndentalgroup_xoiraj.jpg',
-    subtitle: '',
+    subtitle: 'Dental clinic wordpress website',
+    key: 'Mid Town Dental elementor wordpress woocommerce ',
     url: 'https://midtowndentalgroup.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -132,7 +142,8 @@ const portfolio = [
     title: 'Cbeaux',
     category: 'Fashion Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/cbeaux_c23jzr.jpg',
-    subtitle: '',
+    subtitle: 'Fashion ecommerce website',
+    key: 'cbeaux fashion shop ecommerce website woocommerce',
     url: 'https://cbeaux.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -145,7 +156,8 @@ const portfolio = [
     title: 'Belleview Dental',
     category: 'Dental',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/belleviewdental_ijlc1s.jpg',
-    subtitle: '',
+    subtitle: 'Dental clinic website with elementor pro',
+    key: 'Belleview Dental clinic website with elementor pro wordpress',
     url: 'https://belleviewdental.com.au/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -156,14 +168,15 @@ const portfolio = [
   {
     id: 13,
     title: 'Control Post',
-    category: 'Agency',
+    category: 'Portfolio',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609195/monirhossain/portfolio/control-post_dcbpgi.jpg',
-    subtitle: '',
+    subtitle: 'Creative video creator portfolio website',
+    key: 'portfolio video agency portfolio website wordpress woocommerce control post',
     url: 'https://controlpost.org/',
     compatible: [
-      "<span class='lang-dot wp'></span>WordPress",
-      "<span class='lang-dot el'></span>Elementor",
-      "<span class='lang-dot wc'></span>WooCommerce",
+      "<span class='lang-dot html'></span>HTML",
+      "<span class='lang-dot css'></span>CSS",
+      "<span class='lang-dot bt'></span>Bootstrap",
     ],
   },
   {
@@ -171,7 +184,8 @@ const portfolio = [
     title: 'British Knights',
     category: 'Fashion Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/britishknights_cseitb.jpg',
-    subtitle: '',
+    subtitle: 'Fashion shop with woocommerce wordpress woocommerce',
+    key: 'British Knights',
     url: 'https://britishknights.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -184,7 +198,8 @@ const portfolio = [
     title: 'I Love Kick Boxing',
     category: 'Health / Fitness',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609198/monirhossain/portfolio/ilovekickboxing_g7oqgj.jpg',
-    subtitle: '',
+    subtitle: 'Online fitness website with wordpress',
+    key: 'i love kick boxing fitness website with wordpress elementor gym',
     url: 'https://ilovekickboxing.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -197,12 +212,13 @@ const portfolio = [
     title: 'No1 Intertrading',
     category: 'Agency',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/no1-it_gqp7dw.jpg',
-    subtitle: '',
+    subtitle: 'Trading Business website',
+    key: 'One two',
     url: 'http://no1-it.com/',
     compatible: [
-      "<span class='lang-dot wp'></span>WordPress",
-      "<span class='lang-dot el'></span>Elementor",
-      "<span class='lang-dot wc'></span>WooCommerce",
+      "<span class='lang-dot html'></span>HTML",
+      "<span class='lang-dot css'></span>CSS",
+      "<span class='lang-dot bt'></span>Bootstrap",
     ],
   },
   {
@@ -210,7 +226,8 @@ const portfolio = [
     title: `TU'S Dental`,
     category: 'Dental',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/tusdental_e1dhgc.jpg',
-    subtitle: '',
+    subtitle: 'Dental clinic website design',
+    key: 'tu dental wordpress website elementor clinic',
     url: 'http://tusdental.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -224,6 +241,7 @@ const portfolio = [
     category: 'Pet Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609198/monirhossain/portfolio/earthbounduk_d6cczr.jpg',
     subtitle: '',
+    key: 'Pet food woocommerce elementor wordpress Earth Bound',
     url: 'http://www.earthbounduk.co.uk/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -236,7 +254,8 @@ const portfolio = [
     title: 'Smile Spa',
     category: 'Spa',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/nycsmilespa_cg3sbf.jpg',
-    subtitle: '',
+    subtitle: 'Spa WordPress Elementor',
+    key: 'spa WordPress Elementor smile elementor',
     url: 'http://www.nycsmilespa.com/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",
@@ -249,7 +268,8 @@ const portfolio = [
     title: 'Felt Moon',
     category: 'Pet Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/feltmoon_chv41q.jpg',
-    subtitle: '',
+    subtitle: 'Felted Personalised Pet Portraits',
+    key: 'Felt Moon pet shop wordpress woocommerce elementor',
     url: 'https://www.felt-moon.co.uk/',
     compatible: [
       "<span class='lang-dot wp'></span>WordPress",

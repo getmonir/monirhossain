@@ -23,7 +23,7 @@ const Test = () => {
         </div>
       </header>
       <div className='container'>
-        <div className='row g-lg-5 g-3 mb-8'>
+        <div className='row g-lg-5 g-3'>
           <div className='col-lg-7 mx-auto'>
             <input
               type='text'

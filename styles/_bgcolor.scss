@@ -182,3 +182,18 @@ button.cat-btn {
     background-color: #7f54b3 !important;
   }
 }
+
+input.search-form {
+  height: 45px;
+  width: 100%;
+  border: 2px solid #eee;
+  padding: 0 15px;
+  font-family: inherit;
+  border-radius: 6px;
+  color: #555;
+}
+
+input.search-form:focus {
+  border-color: #1dbf73;
+  outline: none;
+}

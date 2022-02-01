@@ -6,7 +6,6 @@ const PortfolioItems = ({ portfolioData }) => {
       <div className='row g-lg-5 g-3'>
         {portfolioData.map((portfolioItem) => {
           const { id, title, subtitle, img, url, compatible } = portfolioItem;
-
           return (
             <div className='col-lg-6' key={id}>
               <article className='mb-5 project'>
