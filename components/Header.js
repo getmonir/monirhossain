@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   RiCloseCircleLine,
@@ -10,11 +10,28 @@ import {
   RiFacebookCircleFill,
 } from 'react-icons/ri';
 const Header = () => {
+  const [stickyClass, setStickyClass] = useState('relative');
+  useEffect(() => {
+    window.addEventListener('scroll', stickNavbar);
+
+    return () => {
+      window.removeEventListener('scroll', stickNavbar);
+    };
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 80
+        ? setStickyClass('fixed-header')
+        : setStickyClass('relative');
+    }
+  };
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   return (
-    <header className='header'>
+    <header className={`header ${stickyClass}`}>
       <div className='container'>
         <div className='navbar'>
           <div className='navbar__logo'>
