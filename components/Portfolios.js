@@ -1,30 +1,15 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { Shimmer, ToBase64, Meta } from '../../components';
-import portfolioData from '../../data/portfolio';
+import { Shimmer, ToBase64, Meta } from '../components';
+import portfolioData from '../data/portfolio';
 
-const Test = () => {
+const Portfolios = () => {
   const [searchTerm, setSearchTerm] = useState('');
   return (
     <>
-      <Meta title='Portfolio - Monir Hossain' />
-      <header className='pt-10 mb-4'>
-        <div className='container'>
-          <div className='row g-3'>
-            <div className='col-lg-8 text-center mx-auto'>
-              <h2 className='display-5 mb-4'>My Portfolio</h2>
-              <p className='mb-0 lead'>
-                I enjoy sharing the projects just as much as I enjoy creating
-                them. Sit back &amp; take a moment to browse through some of my
-                completed work.
-              </p>
-            </div>
-          </div>
-        </div>
-      </header>
       <div className='container'>
         <div className='row g-lg-5 g-3 mb-8'>
-          <div className='col-lg-7 mx-auto'>
+          <div className='col-lg-12 mx-auto'>
             <input
               type='text'
               placeholder='Search...'
@@ -96,4 +81,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Portfolios;

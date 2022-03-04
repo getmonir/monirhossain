@@ -49,10 +49,6 @@ const Header = () => {
             </li>
 
             <li className='option' onClick={closeMobileMenu}>
-              <Link href='/portfolio'>Portfolio</Link>
-            </li>
-
-            <li className='option' onClick={closeMobileMenu}>
               <Link href='/website-templates'>Free Website Templates </Link>
             </li>
 

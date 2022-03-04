@@ -5,7 +5,7 @@ const AboutPage = () => {
     <>
       <Meta title='About Monir Hossain' />
 
-      <header className='pt-10'>
+      <header className='py-10 py-lg-11'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 mx-auto text-center'>
@@ -15,7 +15,7 @@ const AboutPage = () => {
         </div>
       </header>
 
-      <section className='py-10 py-lg-11'>
+      <section className='pb-10 pb-lg-11'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 mx-auto'>

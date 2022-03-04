@@ -2249,6 +2249,7 @@ header.header {
   left: 0;
   top: 0;
   width: 100%;
+  z-index: 99;
 }
 
 .fixed-header {
@@ -4143,5 +4144,9 @@ input.search-form {
 input.search-form:focus {
   border-color: #1dbf73;
   outline: none;
+}
+
+.rounded {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */

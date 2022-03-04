@@ -9,7 +9,7 @@ const index = () => {
   return (
     <>
       <Meta title='Contact Me - Monir Hossain' />
-      <header className='pt-10'>
+      <header className='py-10 py-lg-11'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-7 text-center mx-auto'>
@@ -22,7 +22,7 @@ const index = () => {
           </div>
         </div>
       </header>
-      <section className='py-10 py-lg-11'>
+      <section className='pb-10 pb-lg-11'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-4'>
@@ -52,11 +52,11 @@ const index = () => {
                 <p className='mb-0 lead'>
                   <a
                     className='text-decoration-none text-link link-primary'
-                    href='https://wa.me/+8801521569094'
+                    href='https://wa.me/+8801710021512'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    +88 01521 56 90 94
+                    +880 1710021512
                   </a>
                 </p>
               </div>
@@ -74,7 +74,7 @@ const index = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    getmonirhossain
+                    Monir Hossain
                   </a>
                 </p>
               </div>

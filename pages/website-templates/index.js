@@ -6,7 +6,7 @@ const WebsiteTemplate = () => {
   return (
     <>
       <Meta title='Free website template by Monir Hossain' />
-      <header className='pt-10'>
+      <header className='py-10 py-lg-11'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-10 text-center mx-auto'>
@@ -19,10 +19,10 @@ const WebsiteTemplate = () => {
           </div>
         </div>
       </header>
-      <section className='py-10 py-lg-11'>
+      <section className='pb-10 pb-lg-11'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
               <div className='mb-4 mb-lg-0'>
                 <Link href='/website-templates'>
                   <a className='text-black link-primary text-decoration-none'>

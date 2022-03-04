@@ -1,25 +1,13 @@
 import {
-  TestimonialSlider,
   Hero,
-  BlogSection,
-  GetStarted,
-  WhyMe,
-  MyServices,
-  MyPortfolio,
-  MyFreeWebsite,
+  Portfolios
 } from '../components';
 
 const index = () => {
   return (
     <>
       <Hero />
-      <WhyMe />
-      <MyServices />
-      <MyPortfolio />
-      <TestimonialSlider />
-      <MyFreeWebsite />
-      <GetStarted />
-      <BlogSection />
+      <Portfolios />
     </>
   );
 };

@@ -14,6 +14,7 @@ import MyServices from './MyServices';
 import MyPortfolio from './MyPortfolio';
 import MyFreeWebsite from './MyFreeWebsite';
 import GigResponsiveWP from './GigResponsiveWP';
+import Portfolios from './Portfolios';
 
 export {
   Header,
@@ -32,4 +33,5 @@ export {
   MyPortfolio,
   MyFreeWebsite,
   GigResponsiveWP,
+  Portfolios
 };

@@ -43,13 +43,7 @@ const Footer = () => {
                     </a>
                   </Link>
                 </li>
-                <li>
-                  <Link href='/portfolio'>
-                    <a className='link-primary text-black text-decoration-none'>
-                      My Portfolio
-                    </a>
-                  </Link>
-                </li>
+                
                 <li>
                   <Link href='/website-templates'>
                     <a className='link-primary text-black text-decoration-none'>
@@ -207,11 +201,8 @@ const Footer = () => {
           </div>
         </div>
         <div className='row align-items-md-center py-6'>
-          <div className='col-6 mb-3 mb-lg-0'>
-            <p className='fs-5 mb-0'>Privacy Policy</p>
-          </div>
-          <div className='col-6'>
-            <p className='fs-5 text-end text-white-70 mb-0'>
+          <div className='col-12'>
+            <p className='fs-5 mb-0'>
               &copy; Monir Hossain. 2022
             </p>
           </div>

@@ -11,15 +11,17 @@ const CustomWordPress = () => {
         }
         description='I will build responsive wordpress website design or website redesign for $10'
       />
-      <section className='py-10'>
+      <section className=''>
         <div className='container'>
           <div className='row justify-content-between'>
-            <div className='col-lg-7'>
-              <h2 className='h1 mb-3'>
-                I will build responsive wordpress website design or website
-                redesign
-              </h2>
-              <p className='mb-0 py-4 h6'>Last Update 28 Jan 2022</p>
+            <div className='col-lg-7 mb-lg-10'>
+              <div className='py-10 py-lg-11'>
+                <h2 className='h1 mb-3'>
+                  I will build responsive wordpress website design or website
+                  redesign
+                </h2>
+                <p className='mb-0 py-4 h6'>Last Update 28 Jan 2022</p>
+              </div>
               <div className='mb-5'>
                 <Image
                   src='/gig/responsive-wordpress-website.png'
@@ -66,7 +68,9 @@ const CustomWordPress = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <GigResponsiveWP />
+              <div className='py-10 py-lg-11'>
+                <GigResponsiveWP />
+              </div>
             </div>
           </div>
         </div>
