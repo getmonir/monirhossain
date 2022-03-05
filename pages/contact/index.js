@@ -34,11 +34,11 @@ const index = () => {
                 <p className='mb-0 lead'>
                   <a
                     className='text-decoration-none text-link link-primary'
-                    href='mailto:getmonirhossain@gmail.com'
+                    href='mailto:monir@monirhossain.com'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    getmonirhossain@gmail.com
+                    monir@monirhossain.com
                   </a>
                 </p>
               </div>

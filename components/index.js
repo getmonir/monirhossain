@@ -33,5 +33,5 @@ export {
   MyPortfolio,
   MyFreeWebsite,
   GigResponsiveWP,
-  Portfolios
+  Portfolios,
 };

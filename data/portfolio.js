@@ -1,6 +1,5 @@
 const portfolio = [
   {
-    id: 1,
     title: 'Nuria Beauty',
     category: 'Beauty Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609196/monirhossain/portfolio/nuriabeauty_zy85xu.jpg',
@@ -14,7 +13,6 @@ const portfolio = [
     ],
   },
   {
-    id: 111,
     title: 'Grm Family Law',
     category: 'Lawyers',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643886847/monirhossain/portfolio/grmfamilylaw-cm_seemyl.png',
@@ -28,7 +26,6 @@ const portfolio = [
     ],
   },
   {
-    id: 112,
     title: 'Natkam',
     category: 'Kids',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643888114/monirhossain/portfolio/natkam_tesdav.png',
@@ -43,7 +40,6 @@ const portfolio = [
     ],
   },
   {
-    id: 2,
     title: 'Joe Coffee',
     category: 'Online Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609197/monirhossain/portfolio/joecoffeecompany_py8mzv.jpg',
@@ -57,7 +53,18 @@ const portfolio = [
     ],
   },
   {
-    id: 3,
+    title: 'C&W Plumbing',
+    category: 'Plumbing',
+    img: 'https://res.cloudinary.com/getmonirh/image/upload/v1646499335/monirhossain/portfolio/candwplumbing_kciuan.png',
+    subtitle: 'Plumbers Company Website Design',
+    key: 'Plumbers Plumbing wordpress elementor woocommerce booking',
+    url: 'https://candwplumbing.com/',
+    compatible: [
+      "<span class='lang-dot wp'></span>WordPress",
+      "<span class='lang-dot el'></span>Elementor",
+    ],
+  },
+  {
     title: 'Flwr',
     category: 'Flower Shop',
     img: 'https://res.cloudinary.com/getmonirh/image/upload/v1643609196/monirhossain/portfolio/flwr_bost6f.jpg',
